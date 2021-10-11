@@ -1,0 +1,27 @@
+{
+  "name": "practica-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=dev node .",
+    "dev": "cross-env NODE_ENV=dev nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natxsglez/node_js_p2_pae.git"
+  },
+  "author": "NXSG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natxsglez/node_js_p2_pae/issues"
+  },
+  "homepage": "https://github.com/natxsglez/node_js_p2_pae#readme",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.7",
+    "nodemon": "^2.0.13"
+  }
+}
